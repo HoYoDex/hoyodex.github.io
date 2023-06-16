@@ -11,6 +11,8 @@ html {
   height: 4em;
   max-width: 1200px;
   margin: auto;
+  position: fixed;
+  top: 0;
   background: linear-gradient(90deg, rgba(117,0,0,1) 0%, rgba(172,0,0,1) 50%, rgba(0,0,0,1) 100%);}
 
 #menu {
