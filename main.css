@@ -77,3 +77,24 @@ html {
   overflow-y: auto;
   padding-top: 1em;
 }
+
+#content-wrapper {
+  padding: 1em;
+  box-shadow: 0 3px 9px 0 rgba(75,75,75,0.4);
+}
+
+#content-wrapper {
+    background-color: #ffffff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #252525;
+}
+
+div {
+    display: block;
+}
+
+.body-content:after {
+    clear: both;
+    content: '';
+    display: block;
+}
