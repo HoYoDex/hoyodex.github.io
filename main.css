@@ -59,3 +59,21 @@ html {
   color: #111;
   background: url(/Wiki_Icon.png) no-repeat bottom center;
 }
+
+#sidebar-wrapper,
+#sidebar {
+  margin-top: 4em;
+  margin-left: 0.3em;
+}
+
+#sidebar-wrapper {
+  background: #333333
+}
+
+#sidebar-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  padding-top: 1em;
+}
