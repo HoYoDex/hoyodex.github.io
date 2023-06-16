@@ -106,3 +106,19 @@ div {
 .sidebar-section {
   padding-bottom:0.25em
 }
+
+#sidebar-wrapper ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.sidebar-content ul {
+    padding: 0.25em 0 0.5em 0;
+}
+
+#header-wrapper, 
+#sidebar-wrapper, 
+#footer-wrapper {
+    color: #ffffff;
+}
+
