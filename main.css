@@ -5,3 +5,73 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+#header {  
+  width: 100%;
+  height: 3em;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(172,0,0,1) 50%, rgba(117,0,0,1) 100%);}
+
+#menu {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;  
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;  
+}
+ 
+.icon {
+    background: url(../images/icon.png);
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+
+/** Played with the top banner menu "width" here, 
+5 items at 10% = half page width  **/
+#menu ul li {
+  width: 8%;
+  display: inline;
+  float: left;
+  padding-top: 0.8em;  
+  list-style: none;
+  text-align: center;
+}
+
+#menu ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 1.0em;
+  color: #222;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+  font-weight: bold;
+  color: #111;
+  background: url(../images/menu_tab.gif) no-repeat bottom center;
+}
+
+
+/***************************************************
+  Site Title
+ ***************************************************/
+
+#title {
+  padding: 0.6em 55px 0.6em 0;
+  margin-right: 0.5em;
+  float: right;
+  background: url(../images/logo_voidarchives.gif) no-repeat top right;
+}
+
+#title h1 {
+  display: inline;
+  color:  #222;
+  background-color: #FFEE00;
+  background-image: none;
+}
