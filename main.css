@@ -55,19 +55,5 @@ html {
 #menu ul li a.active {
   font-weight: bold;
   color: #111;
-  background: url(../images/menu_tab.gif) no-repeat bottom center;
-}
-
-#title {
-  padding: 0.6em 55px 0.6em 0;
-  margin-left: 0.5em;
-  float: left;
-  background: url(/Wiki_Icon.png) no-repeat top right;
-}
-
-#title h1 {
-  display: inline;
-  color:  #222;
-  background-color: #FFEE00;
-  background-image: none;
+  background: url(/Wiki_Icon.png) no-repeat bottom center;
 }
