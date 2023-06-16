@@ -98,3 +98,11 @@ div {
     content: '';
     display: block;
 }
+
+.sidebar-content ul {
+  padding:0.25em 0 0.5em 0
+}
+
+.sidebar-section {
+  padding-bottom:0.25em
+}
