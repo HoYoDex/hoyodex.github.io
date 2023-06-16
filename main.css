@@ -30,9 +30,6 @@ html {
     display: block;
 }
 
-
-/** Played with the top banner menu "width" here, 
-5 items at 10% = half page width  **/
 #menu ul li {
   width: 8%;
   display: inline;
@@ -57,16 +54,11 @@ html {
   background: url(../images/menu_tab.gif) no-repeat bottom center;
 }
 
-
-/***************************************************
-  Site Title
- ***************************************************/
-
 #title {
   padding: 0.6em 55px 0.6em 0;
-  margin-right: 0.5em;
-  float: right;
-  background: url(../images/logo_voidarchives.gif) no-repeat top right;
+  margin-left: 0.5em;
+  float: left;
+  background: url(/Wiki_Icon.png) no-repeat top right;
 }
 
 #title h1 {
