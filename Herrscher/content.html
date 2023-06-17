@@ -1,3 +1,19 @@
+<script>
+function HerrscherEra(evt, HerrscherSelection) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(HerrscherSelection).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>	
+	
 	
 <table>
   <h2>Herrscher</h2>
@@ -315,18 +331,3 @@ The order of Herrschers in the Current Era based on the Previous Era no longer m
   <td> An incomplete Herrscher. She was a student at Chiba Academy in Nagazora who was able to manipulate poison in the form of plants, and later able to release toxins themselves. Despite her physical weakness, her ability was able to harm Theresa Apocalypse. Theresa under the influence of Sakura's stigmata killed her before her core could fully manifest to become a full Herrscher.</td>
 </tr>
 
-<script>
-function HerrscherEra(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
