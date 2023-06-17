@@ -268,7 +268,7 @@ blockquote span {
   width: 20.25%; /** explorer  **/
   padding: 5px 0px; padding-left:1.2% !important;/** mozilla **/
   padding: 5px 0px; padding-left:4%;/**IE  **/
-  background: transparent url("../images/right.jpg") no-repeat left top;
+  background: #333333 no-repeat left top; no-repeat left top;
 }
 
 /***************************************************
