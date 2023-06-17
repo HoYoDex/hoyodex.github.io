@@ -8,6 +8,7 @@ html {
 
 body {
   color: #000000;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 #header {  
@@ -122,10 +123,7 @@ h1 span {
   background: #000000 no-repeat bottom right;
 }
 
-#sideBar h1 {
-  text-align: centre;
-  background: #333333 no-repeat top left;
-}
+
 
 #sideBar h1 span {
   display: block;
@@ -266,6 +264,7 @@ blockquote span {
 
 /** Right column  **/
 #sideBar {
+  margin-top: -1em;
   float: left;
   float:left; 
   width: 18% !important; /** mozilla **/
@@ -373,6 +372,8 @@ blockquote span {
 
 #sideBar a {
   color: #ffffff;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #sideBar a:visited {
@@ -387,6 +388,8 @@ blockquote span {
   color: #ffffff;
   font-variant: all-small-caps;
   margin-left: 0.25em;
+  text-align: centre;
+  background: #333333 no-repeat top left;
 }
 
 /***************************************************
