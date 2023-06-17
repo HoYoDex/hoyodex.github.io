@@ -269,6 +269,7 @@ blockquote span {
   float:left; 
   width: 18% !important; /** mozilla **/
   width: 20.25%; /** explorer  **/
+  max-width: 12em;
   padding: 5px 0px; padding-left:1.2% !important;/** mozilla **/
   padding: 5px 0px; padding-left:4%;/**IE  **/
   background: #333333 no-repeat left top; no-repeat left top;
