@@ -3,7 +3,7 @@ fetch("contents.html")
     return response.text()
   })
   .then(data => {
-    document.querySelector("pagecontents").innerHTML = data;
+    document.querySelector("pagecontent").innerHTML = data;
   });
   
-document.getElementById("tabber").innerHTML = "<table>";
+document.getElementById("tabber").innerHTML = "table";
