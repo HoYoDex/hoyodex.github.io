@@ -113,14 +113,14 @@ h1 {
   margin: 10px 0;
   font: 700 1em verdana, sans-serif;
   text-transform: uppercase;
-  color: #7BD32C;
-  background: #000000 no-repeat top right;
+  color: #000000;
+  background: #ffffff no-repeat top right;
 }
 
 h1 span {
   display: block;
   padding: 2px;
-  background: #000000 no-repeat bottom right;
+  background: #ffffff no-repeat bottom right;
 }
 
 
