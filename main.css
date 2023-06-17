@@ -119,14 +119,14 @@ h1 span {
 }
 
 #sideBar h1 {
-  text-align: right;
-  background: #000000 no-repeat top left;
+  text-align: centre;
+  background: #333333 no-repeat top left;
 }
 
 #sideBar h1 span {
   display: block;
   padding: 2px;
-  background: #000000 no-repeat bottom left;
+  background: #333333 no-repeat bottom left;
 }
 
 
